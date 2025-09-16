@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.sf25{
+  background-color: rgb(20, 2, 2);
+}

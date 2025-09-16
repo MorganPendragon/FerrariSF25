@@ -8,3 +8,17 @@
 .sf25{
   background-color: rgb(20, 2, 2);
 }
+
+.model{
+  display: flex;
+  flex-direction: column; /* stack image above iframe */
+  justify-content: center; /* vertical centering if container has height */
+  align-items: center;     /* horizontal centering */
+}
+
+
+.model iframe {
+  width: 1500px;
+  height: 900px;
+  border: none;
+}

@@ -58,4 +58,7 @@ overflow: hidden;
   display: inline-block;
 }
 
+.space {
+    height: 250px;
+  }
 

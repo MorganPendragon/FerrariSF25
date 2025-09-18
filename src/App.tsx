@@ -54,23 +54,78 @@ function App() {
           <div className="w-3 h-3 bg-red-600 rounded-full"></div>
         </div>
 
-        {/* tire */}
-        <div className="absolute top-[750px] right-[150px] flex items-center">
+        {/* chasis */}
+        <div className="absolute top-[730px] right-[150px] flex items-center">
           <div className="w-3 h-3 bg-red-600 rounded-full"></div>
-          <div className="w-[300px] h-[2px] bg-red-600"></div>
-          <span className="ml-[50px]">Font Tire</span>
+          <div className="w-[470px] h-[2px] bg-red-600"></div>
+          <span className="ml-[50px]">Front Chasis</span>
         </div>
 
         {/* halo */}
         <div className="absolute top-[1250px] left-[250px] flex items-center">
-          <span className="mr-[50px]">Halo</span>
-          <div className="w-[610px] h-[2px] bg-red-600"></div>
+          <span className="mr-[50px]">Halo Protection</span>
+          <div className="w-[540px] h-[2px] bg-red-600"></div>
           <div className="w-3 h-3 bg-red-600 rounded-full"></div>
+        </div>
+
+        {/* cockpit */}
+        <div className="absolute top-[1450px] right-[150px] flex items-center">
+          <div className="w-3 h-3 bg-red-600 rounded-full"></div>
+          <div className="w-[690px] h-[2px] bg-red-600"></div>
+          <span className="ml-[50px]">Cockpit</span>
+        </div>
+
+        {/* rear chasis */}
+        <div className="absolute top-[2300px] left-[250px] flex items-center">
+          <span className="mr-[50px]">Rear Chasis</span>
+          <div className="w-[400px] h-[2px] bg-red-600"></div>
+          <div className="w-3 h-3 bg-red-600 rounded-full"></div>
+        </div>
+
+        {/* rear wing */}
+        <div className="absolute top-[2500px] right-[150px] flex items-center">
+          <div className="w-3 h-3 bg-red-600 rounded-full"></div>
+          <div className="w-[670px] h-[2px] bg-red-600"></div>
+          <span className="ml-[50px]">Rear Wing</span>
         </div>
       </div>
 
+      {/* drivers section */}
+      <h2 className="text-center">Drivers</h2>
+      <div className="drivers relative flex justify-center">
+        {/* Charles */}
+        <div className="relative group">
+          <img
+            src="/pics/charles.avif"
+            alt="Charles Leclerc"
+            className="transition duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white p-2 rounded-lg text-center opacity-0 transition duration-300 group-hover:opacity-100">
+            <h3>Charles Leclerc</h3>
+            <p>Nationality: Monegasque</p>
+          </div>
+        </div>
+
+        {/* Lewis */}
+        <div className="relative group">
+          <img
+            src="/pics/lewis.avif"
+            alt="Lewis Hamilton"
+            className="transition duration-300 group-hover:blur-sm"
+          />
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white p-2 rounded-lg text-center opacity-0 transition duration-300 group-hover:opacity-100">
+            <h3>Lewis Hamilton</h3>
+            <p>Nationality: British</p>
+          </div>
+        </div>
+      </div>
+
+<div className="space">
+  
+</div>
+
       {/* 3d model */}
-      <div className="model">
+      <div className="model m">
         <iframe
           title="F1 2025 Ferrari SF-25"
           src="https://sketchfab.com/models/7929bd7771d8494eaf0eb31404e24bf6/embed?autostart=1&preload=1&transparent=1&ui_theme=dark"

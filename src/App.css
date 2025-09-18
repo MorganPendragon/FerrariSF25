@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'body-font';
+  src: url('/font/Ferrari-SansRegular.woff') format('woff');
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -11,9 +16,9 @@
 
 .model{
   display: flex;
-  flex-direction: column; /* stack image above iframe */
-  justify-content: center; /* vertical centering if container has height */
-  align-items: center;     /* horizontal centering */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;   
 }
 
 
@@ -22,3 +27,35 @@
   height: 900px;
   border: none;
 }
+
+.landing{
+background-image: rgb(20, 2, 2) ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 1900px;
+height: 1080px;
+overflow: hidden;
+}
+
+.landingtext{
+  margin-top: -10%;
+  font-family: 'body-font';
+}
+
+.button{
+  margin-top: 50px;
+}
+
+.button:focus{
+  outline: #FF2800;
+  box-shadow: #FF2800;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+
